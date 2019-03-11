@@ -25,7 +25,7 @@ You can start bankops-bot locally by running:
 You'll see some start up output and a prompt:
 
     [Sat Feb 28 2015 12:38:27 GMT+0000 (GMT)] INFO Using default redis on localhost:6379
-    bankops-bot>
+    hubot-bot>
 
 Then you can interact with bankops-bot by typing `bankops-bot help`.
 
