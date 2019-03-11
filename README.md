@@ -12,13 +12,13 @@ available, etc!
 [hubot]: http://hubot.github.com
 [generator-hubot]: https://github.com/github/generator-hubot
 
-### Running bankops-bot Locally
+### Running hubot-bot Locally
 
 You can test your hubot by running the following, however some plugins will not
 behave as expected unless the [environment variables](#configuration) they rely
 upon have been set.
 
-You can start bankops-bot locally by running:
+You can start hubot-bot locally by running:
 
     % bin/hubot
 
@@ -27,11 +27,11 @@ You'll see some start up output and a prompt:
     [Sat Feb 28 2015 12:38:27 GMT+0000 (GMT)] INFO Using default redis on localhost:6379
     hubot-bot>
 
-Then you can interact with bankops-bot by typing `bankops-bot help`.
+Then you can interact with hubot-bot by typing `bankops-bot help`.
 
-    bankops-bot> bankops-bot help
-    bankops-bot animate me <query> - The same thing as `image me`, except adds [snip]
-    bankops-bot help - Displays all of the help commands that bankops-bot knows about.
+    hubot-bot> bankops-bot help
+    hubot-bot animate me <query> - The same thing as `image me`, except adds [snip]
+    hubot-bot help - Displays all of the help commands that bankops-bot knows about.
     ...
 
 ### Configuration
