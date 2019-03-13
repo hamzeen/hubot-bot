@@ -27,11 +27,11 @@ You'll see some start up output and a prompt:
     [Sat Feb 28 2015 12:38:27 GMT+0000 (GMT)] INFO Using default redis on localhost:6379
     hubot-bot>
 
-Then you can interact with hubot-bot by typing `bankops-bot help`.
+Then you can interact with hubot-bot by typing `hubot-bot help`.
 
-    hubot-bot> bankops-bot help
+    hubot-bot> hubot-bot help
     hubot-bot animate me <query> - The same thing as `image me`, except adds [snip]
-    hubot-bot help - Displays all of the help commands that bankops-bot knows about.
+    hubot-bot help - Displays all of the help commands that hubot-bot knows about.
     ...
 
 ### Configuration
