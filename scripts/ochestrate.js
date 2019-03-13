@@ -16,15 +16,15 @@ module.exports = function(robot) {
   });
 
   robot.hear(/swfactory status/i, function(msg) {
-    const swfUrl = 'https://tools.work.com';
+    const swfUrl = 'https://hamzeen.github.io';
     utils.scrape(swfUrl)
       .then(data => {
         // console.log('text fetched:: ' + data);
-        msg.send('SWFactory Status: RUNNING');
+        msg.send('Portfolio status: RUNNING');
       })
       .catch(err => {
         console.log(`failure:: ${err}`);
-        msg.send('SPOILER ALERT! Software Factory is DOWN');
+        msg.send('SPOILER ALERT! Portolfio is Down');
       });
   });
 };
